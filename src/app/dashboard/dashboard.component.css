@@ -1,0 +1,29 @@
+.container {
+    margin-top: 12%;
+}
+.circle_user_count {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        box-shadow:1px 2px 15px grey;
+        background-color: white;
+        position: relative;
+        left: 100px;
+        top:100px;
+}
+
+.user_count_label, .logging_count_label {
+    margin-left: 38%;
+    padding-top: 21%;
+    font-size: 22px;
+}
+
+.logging_count_label {
+    margin-left: 31%;
+}
+
+.user_count_value, .logging_count_value {
+    margin-left: 42%;
+    margin-top: 13%;
+    font-size: 30px;
+}

@@ -1,0 +1,40 @@
+.container {
+    margin-top: 65%;
+    margin-left: 155%;
+}
+
+.email-div, .pass-div, .btn-div {
+    margin-top: 5%;
+}
+
+.email-label, .password-label {
+    font-weight: 500;
+    min-width: 96px;
+}
+
+.email-input, .password-input {
+    width: 75%;
+    font-size: 16px;
+}
+
+.error-div p {
+    color: red;
+    min-height: 23px;
+    margin-top: -2%;
+    margin-bottom: 5%;
+}
+
+.btn-edit {
+    min-width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.register-div {
+    margin-top: 2%;
+    text-decoration: none;
+}
+
+.register-link {
+    text-decoration: none;
+}

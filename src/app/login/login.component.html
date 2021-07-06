@@ -1,0 +1,36 @@
+<div class="col-sm-3 my-1">
+    <div class="container">
+        <div class="email-div">
+            <label class="sr-only" for="email">Email</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text email-label">Email</div>
+                </div>
+                <input type="email" class="form-control email-input" id="email" placeholder="Email"
+                    [(ngModel)]="loginDTO.email">
+            </div>
+
+        </div>
+        <div class="pass-div">
+            <label class="sr-only" for="email">Password</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text password-label">Password</div>
+                </div>
+                <input type="password" class="form-control password-input" id="password" placeholder="Password"
+                    [(ngModel)]="loginDTO.password">
+            </div>
+        </div>
+        <div class="btn-div">
+            <div class="error-div">
+                <p>{{errMsg}}</p>
+            </div>
+            <div class="input-group">
+                <button class="btn btn-primary btn-edit" (click)="login()">Login</button>
+            </div>
+        </div>
+        <div class="register-div">
+            <a [routerLink]="['/register']" class="register-link">create new account</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+.footer {
+    min-height: 50px;
+    min-width: 100.40%;
+    margin-top: -0.42%;
+    margin-left: -0.42%;
+    width: 100%;
+    background-color: #000057;
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+.text {
+    text-align: center;
+    font-weight: 800;
+    line-height: 100%;
+    margin-top: 1.3%;
+}

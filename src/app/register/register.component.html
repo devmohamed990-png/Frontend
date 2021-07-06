@@ -1,0 +1,45 @@
+<div class="col-sm-3 my-1">
+    <div class="container">
+        <div class="username-div">
+            <label class="sr-only" for="username">Username</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text username-label">Username</div>
+                </div>
+                <input type="text" class="form-control username-input" id="username" placeholder="Username"
+                    [(ngModel)]="registrationDTO.user_name">
+            </div>
+        </div>
+        <div class="email-div">
+            <label class="sr-only" for="email">Email</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text email-label">Email</div>
+                </div>
+                <input type="email" class="form-control email-input" id="email" placeholder="Email"
+                    [(ngModel)]="registrationDTO.email">
+            </div>
+        </div>
+        <div class="pass-div">
+            <label class="sr-only" for="email">Password</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text password-label">Password</div>
+                </div>
+                <input type="password" class="form-control password-input" id="password" placeholder="Password"
+                    [(ngModel)]="registrationDTO.password">
+            </div>
+        </div>
+        <div class="btn-div">
+            <div class="error-div">
+                <p>{{errMsg}}</p>
+            </div>
+            <div class="input-group">
+                <button class="btn btn-success btn-edit" (click)="register()">Register</button>
+            </div>
+        </div>
+        <div class="register-div">
+            <a [routerLink]="['/login']" class="register-link">Login page</a>
+        </div>
+    </div>
+</div>

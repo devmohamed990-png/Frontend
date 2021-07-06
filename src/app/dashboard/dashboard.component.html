@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <div class="user_count">
+                <div class="circle_user_count">
+                    <p class="user_count_label">User</p>
+                    <p class="user_count_value" *ngIf="infoResponseDTO.user_count > 0">{{ infoResponseDTO.user_count }}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="user_count">
+                <div class="circle_user_count">
+                    <p class="logging_count_label">Logging</p>
+                    <p class="logging_count_value" *ngIf="infoResponseDTO.user_count > 0">
+                        {{ infoResponseDTO.user_logging_count }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
